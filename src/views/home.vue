@@ -19,7 +19,8 @@ getProductList(); // Call the function to fetch the product list
 
 <template>
   <div>
-    <router-link to="/about">Go to about</router-link>
+    <router-link to="/about">Go to about</router-link><br>
+    <router-link to="/product">Go to product</router-link>
     <!-- Display the product list -->
     <ul>
       <li v-for="product in data" :key="product.id">
